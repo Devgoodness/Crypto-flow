@@ -1,1 +1,1 @@
-const api = document.getElementById
+const api = Document.querySelector(".api")
