@@ -1,0 +1,1 @@
+const api = document.getElementById
