@@ -1,1 +1,0 @@
-const api = Document.querySelector(".api")
