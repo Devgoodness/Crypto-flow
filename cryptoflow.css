@@ -44,6 +44,10 @@ nav .btn {
     padding: 10px 30px;
     border-radius: 20px;
 }
+nav .btn:hover {
+    background: #ff960b;
+    color: #fff;
+}
 .content {
     margin-top: 12%;
 }
