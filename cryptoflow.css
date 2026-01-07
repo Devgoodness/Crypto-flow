@@ -47,6 +47,7 @@ nav .btn {
 }
 nav .btn:hover {
     transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.1);
 }
 nav .btn:active {
     transform: scale(0.9);
@@ -96,9 +97,11 @@ nav .btn:active {
     padding: 20px 30px;
     border-radius: 8px;
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
 .coin:hover {
     background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
 }
 .coin img {
     width: 40px;
