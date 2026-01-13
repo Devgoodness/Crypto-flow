@@ -16,7 +16,7 @@ function getPrices() {
   fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd")
     .then(res => res.json())
     .then(data => {
-      document.getElementById("btc-price").innerText = data.bitcoin.usd;
+      document.getElementById("btc-price").textContent = data.bitcoin.usd;
       document.getElementById("eth-price").textContent = data.ethereum.usd;
     })
     .catch(err => console.error(err));
