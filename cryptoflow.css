@@ -119,14 +119,11 @@ nav .btn:active {
 /*crypto price section*/
 
 .crypto-price-section {
-    display: flex;
-    align-items: center;
+    width: 100%;
     margin-top: 50px;
-    padding: 0 7%;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    margin-bottom: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
+    display: flex;
+}
+.crypto-price {
+    display: flex;
+
 }
