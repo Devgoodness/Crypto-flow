@@ -123,7 +123,15 @@ nav .btn:active {
     margin-top: 50px;
     display: flex;
 }
-.crypto-price {
-    display: flex;
-
+.sub-heading {
+  margin-top: 50px;
+  text-align: center;
+}
+.sub-heading h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.sub-heading p {
+  font-size: 16px;
+  color: #ccc;
 }
