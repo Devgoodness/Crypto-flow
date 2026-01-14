@@ -115,3 +115,18 @@ nav .btn:active {
     color: #fff;
     margin-bottom: 5px;
 }
+
+/*crypto price section*/
+
+.crypto-price-section {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 7%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
