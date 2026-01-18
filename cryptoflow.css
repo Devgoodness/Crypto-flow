@@ -139,11 +139,16 @@ nav .btn:active {
   margin-top: 14px;
   text-align: center;
 }
-.crypto-price {
+.crypto-cards {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 
+  width: 250px; /* controls card size */
 }
