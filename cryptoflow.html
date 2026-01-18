@@ -54,23 +54,24 @@
     </div>
 
     <!---crypto prices-->
-<section class="crypto-prices">
-    <h2 class="sub-heading">Live Cryptocurrency Prices</h2>
-    <p class="sub-heading-p">Here are the live prices of the top crypto currencies</p>
-    <div class="crypto-price">
-        <div class="price-card">
-            <h3>Bitcoin (BTC)</h3>
-            <p id="live-btc-price">$91,305.08</p>
-        </div>
-        <div class="price-card">
-            <h3>Ethereum (ETH)</h3>
-            <p id="live-eth-price">$3,135.75</p>
-        </div>
-        <div class="price-card">
-            <h3>Dogecoin (DOGE)</h3>
-            <p id="live-doge-price">$0.151907</p>
-        </div>
+<section class="crypto-cards">
+
+
+  <!-- BITCOIN -->
+  <div class="card">
+    <h3>Bitcoin <span>BTC</span></h3>
+    <p class="price">$<span id="btc-price">0</span></p>
+    <p class="change" id="btc-change">0%</p>
+
+    <div class="buttons">
+      <button class="buy">Buy</button>
+      <button class="trade">Trade</button>
     </div>
+  </div>
+
+    <!-- ETHEREUM -->
+     
+    
 </section>
 
 <script src="cryptoflow.js"></script>
