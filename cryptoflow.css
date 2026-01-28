@@ -118,18 +118,24 @@ nav .btn:active {
 
 /*crypto price section*/
 
+.section2 {
+    width: 100%;
+    background: #f9f9ff;
+    padding: 50px 15px;
+}
+
 .crypto-price-section {
     width: 100%;
     margin-top: 50px;
     display: flex;
-    padding: 50%;
+    padding: 0 7%;
 }
 .sub-heading {
   margin-top: 50px;
   text-align: center;
   font-size: 32px;
   margin-bottom: 10px;
-  color: indigo;
+  color: #333;
 }
 .sub-heading-p {
   font-size: 16px;
@@ -144,6 +150,7 @@ nav .btn:active {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    padding: 20px 0;
 }
 .card {
   background: white;
