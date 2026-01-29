@@ -123,7 +123,6 @@ nav .btn:active {
     background: #f9f9ff;
     padding: 50px 15px;
 }
-
 .crypto-price-section {
     width: 100%;
     margin-top: 50px;
@@ -136,6 +135,16 @@ nav .btn:active {
   font-size: 32px;
   margin-bottom: 10px;
   color: #333;
+  position: relative;
+  right: 10px;
+}
+.sub-heading::before {
+    content: "";
+    height: 40px;
+    width: 5px;
+    background: #ff960b;
+    position: absolute;
+    border-radius: 10px;
 }
 .sub-heading-p {
   font-size: 16px;
@@ -157,8 +166,11 @@ nav .btn:active {
   padding: 20px;
   border-radius: 14px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-
   width: 250px; /* controls card size */
+}
+.card img {
+    height: 50px;
+    width: 50px;
 }
 .card h3 {
   font-size: 18px;
