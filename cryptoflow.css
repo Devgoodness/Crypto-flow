@@ -170,6 +170,10 @@ nav .btn:active {
   border-radius: 14px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   width: 250px; /* controls card size */
+  transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
 }
 .card img {
     height: 50px;
