@@ -171,6 +171,7 @@ nav .btn:active {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   width: 250px; /* controls card size */
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 .card:hover {
     transform: translateY(-10px);
@@ -221,4 +222,14 @@ button {
 .trade {
   background: #ecfdf5;
   color: #16a34a;
+}
+.show-more-btn {
+  margin-top: 20px;
+  margin-left: auto;
+  padding: 10px 20px;
+  background: orange;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
 }
