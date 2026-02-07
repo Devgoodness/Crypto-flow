@@ -4,8 +4,7 @@ fetch(
 )
   .then(response => response.json())
   .then(data => {
-
-
+    console.log(data);
   });
 
 function setData(priceId, changeId, price, change) {
