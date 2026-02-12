@@ -7,12 +7,3 @@ fetch(
     console.log(data);
   });
 
-function setData(priceId, changeId, price, change) {
-  const priceEl = document.getElementById(priceId);
-  const changeEl = document.getElementById(changeId);
-
-  priceEl.textContent = price.toLocaleString();
-  changeEl.textContent = change.toFixed(2) + "%";
-
-  changeEl.style.color = change < 0 ? "red" : "green";
-}
